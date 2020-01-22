@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<span th:each="metalAlbums : ${metalAlbums}">
+
+    <ul>>
+        <li Artist: th:text="${metalAlbums.artist}"></li>
+            <li th:text="${metalAlbums.songCount}"></li>
+            <li th:text="${metalAlbums.length}"></li>
+            <li><img th:src="${metalAlbums.imgUrl}"/></li>
+
+    </ul>
+
+</span>
+
+</body>
+</html>

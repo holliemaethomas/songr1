@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecd15154-dc2f-44a2-a345-cea729c9f00c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/SongrApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/SongrApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/splash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/holliemthomas/songr/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/holliemthomas/songr/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,8 +67,28 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SongrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holliemthomas.songr.SongrApplication" />
+      <module name="songr.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holliemthomas.songr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SongrApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,9 +116,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579634269355">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579640125372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579634269355" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579640125372" />
+    <state width="1388" height="98" key="GridCell.Tab.0.bottom" timestamp="1579729581699">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="98" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579729581699" />
+    <state width="1388" height="98" key="GridCell.Tab.0.center" timestamp="1579729581698">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="98" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579729581698" />
+    <state width="1388" height="98" key="GridCell.Tab.0.left" timestamp="1579729581697">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="98" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579729581697" />
+    <state width="1388" height="98" key="GridCell.Tab.0.right" timestamp="1579729581699">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="98" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579729581699" />
+    <state x="105" y="1" key="SettingsEditor" timestamp="1579717262118">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="105" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579717262118" />
   </component>
 </project>
