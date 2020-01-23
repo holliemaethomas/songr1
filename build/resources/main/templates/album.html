@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<h1>Cool Music Starts Here </h1>
+<span th:each="album : ${metalAlbums}">
 
-<span th:each="metalAlbums : ${metalAlbums}">
-
-    <ul>>
-        <li Artist: th:text="${metalAlbums.artist}"></li>
-            <li th:text="${metalAlbums.songCount}"></li>
-            <li th:text="${metalAlbums.length}"></li>
-            <li><img th:src="${metalAlbums.imgUrl}"/></li>
+    <ul th:each="album : ${metalAlbums}" >
+            <li th:text="${album.artist}"></li>
+            <li th:text="${album.title}"></li>
+            <li th:text="${album.songCount}"></li>
+            <li th:text="${album.albumLength}"></li>
+            <li><img th:src="${album.imageUrl}"/></li>
 
     </ul>
 

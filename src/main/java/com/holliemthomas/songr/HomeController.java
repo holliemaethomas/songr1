@@ -41,11 +41,11 @@ public class HomeController {
     @GetMapping("/album")
     public String getAlbums(Model m) {
 Album[] metalAlbums = new Album[] {
-        new Album("Chelsea Grin1", "Eternal Nightmares", 13, 3333, "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F6%2F62%2FChelsea_Grin_Ashes_to_Ashes.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAshes_to_Ashes_(Chelsea_Grin_album)&docid=RgaRMguskX9M5M&tbnid=XEpIBeY4ZByXaM%3A&vet=10ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ..i&w=316&h=316&safe=active&bih=821&biw=1440&q=chelsea%20grin%20ashes%20to%20ashes%20songs&ved=0ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ&iact=mrc&uact=8"),
+        new Album("Chelsea Grin", "Ashes To Ashes", 13, 3333, "https://i.ytimg.com/vi/FArfEGiOoS0/maxresdefault.jpg"),
 
-        new Album("Chelsea Grin2", "Eternal Nightmares", 13, 3333, "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F6%2F62%2FChelsea_Grin_Ashes_to_Ashes.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAshes_to_Ashes_(Chelsea_Grin_album)&docid=RgaRMguskX9M5M&tbnid=XEpIBeY4ZByXaM%3A&vet=10ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ..i&w=316&h=316&safe=active&bih=821&biw=1440&q=chelsea%20grin%20ashes%20to%20ashes%20songs&ved=0ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ&iact=mrc&uact=8"),
+        new Album("Lorna Shore", "Flesh Coffin", 13, 3333, "https://images-na.ssl-images-amazon.com/images/I/8121xoI7goL._SY355_.jpg"),
 
-        new Album("Chelsea Grin3", "Eternal Nightmares", 13, 3333, "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F6%2F62%2FChelsea_Grin_Ashes_to_Ashes.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAshes_to_Ashes_(Chelsea_Grin_album)&docid=RgaRMguskX9M5M&tbnid=XEpIBeY4ZByXaM%3A&vet=10ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ..i&w=316&h=316&safe=active&bih=821&biw=1440&q=chelsea%20grin%20ashes%20to%20ashes%20songs&ved=0ahUKEwjkyOLb95fnAhXiHTQIHcXFAPwQMwhLKAEwAQ&iact=mrc&uact=8"),
+        new Album("Oceano", "Incisions", 13, 3333, "http://s3.amazonaws.com/NRNArt/Oceano--Incisions-album-cover.jpg"),
 };
 m.addAttribute("metalAlbums", metalAlbums);
 return "album";

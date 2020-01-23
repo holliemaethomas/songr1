@@ -4,8 +4,8 @@ public class Album {
     public String artist;
     public String title;
     public String imageUrl;
-    private int songCount;
-    private int albumLength;
+    public int songCount;
+    public int albumLength;
 
 
     public Album(String artist, String title, Integer songCount, Integer albumLength, String imageUrl) {
