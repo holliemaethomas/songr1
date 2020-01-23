@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AddAlbum</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>Cool Music Starts Here </h1>
-<span th:each="album : ${metalAlbums}">
+
+<fieldset>
+    <form action="/album" method="post">
+        <input name="artist" placeholder="Artist"/>
+        <input name="title" placeholder="Title"/>
+        <input name="songCount" placeholder="songCount"/>
+        <input name="albumLength" placeholder="albumLength"/>
+        <input name="imageUrl" placeholder="imageUrl"/>
+        <input type="submit">
+    </form>
+</fieldset>
+
+<span>
 
     <ul th:each="album : ${metalAlbums}" >
             <li th:text="${album.artist}"></li>
