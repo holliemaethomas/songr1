@@ -15,7 +15,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getRoot() {
-        return "Index";
+        return "splash";
     }
 
     @GetMapping("/hello")
@@ -23,5 +23,33 @@ public class HomeController {
         return "hello";
     }
 
+
+    @GetMapping("/capitalize/{input}")
+    public String getcapitalize(@PathVariable String input,
+                                Model m) {
+        m.addAttribute("input",
+                setCapitalize(input));
+        return "capitalize";
+    }
+
+//    capitalize method for capitalized route
+
+    public static String setCapitalize(String input) {
+        return input.toUpperCase();
+    }
+
+    @GetMapping("/album")
+    public String getAlbums(Model m) {
+Album[] metalAlbums = new Album[] {
+        new Album("Chelsea Grin", "Ashes To Ashes", 13, 3333, "https://i.ytimg.com/vi/FArfEGiOoS0/maxresdefault.jpg"),
+
+        new Album("Lorna Shore", "Flesh Coffin", 13, 3333, "https://images-na.ssl-images-amazon.com/images/I/8121xoI7goL._SY355_.jpg"),
+
+        new Album("Oceano", "Incisions", 13, 3333, "http://s3.amazonaws.com/NRNArt/Oceano--Incisions-album-cover.jpg"),
+};
+m.addAttribute("metalAlbums", metalAlbums);
+return "album";
+
+    }
 
 }
