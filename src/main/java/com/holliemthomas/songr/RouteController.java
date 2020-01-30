@@ -21,6 +21,9 @@ public class RouteController {
     @Autowired
     AlbumRepository albumRepository;
 
+    @Autowired
+    SongRepository songRepository;
+
     @GetMapping("/")
     public String getRoot() {
         return "splash";
@@ -46,27 +49,10 @@ public class RouteController {
         return input.toUpperCase();
     }
 
+
     @GetMapping("/album")
     public String getAlbums(Model m) {
-//        Album[] metalAlbums = new Album[]{
-//                new Album("Chelsea Grin",
-//                        "Ashes To Ashes",
-//                        13,
-//                        3333,
-//                        "https://i.ytimg.com/vi/FArfEGiOoS0/maxresdefault.jpg"),
-//
-//                new Album("Lorna Shore",
-//                        "Flesh Coffin",
-//                        13,
-//                        3333,
-//                        "https://images-na.ssl-images-amazon.com/images/I/8121xoI7goL._SY355_.jpg"),
-//
-//                new Album("Oceano",
-//                        "Incisions",
-//                        13,
-//                        3333,
-//                        "http://s3.amazonaws.com/NRNArt/Oceano--Incisions-album-cover.jpg"),
-//        };
+
         List<Album> albumEntry = albumRepository.findAll();
         m.addAttribute("metalAlbums", albumEntry);
 
@@ -88,6 +74,24 @@ public class RouteController {
         albumRepository.save(newAlbum);
 
         return new RedirectView("/album");
+    }
+
+    @GetMapping("/songs")
+    public String getSongs(Model m) {
+
+        List<AddSong> SongEntry = songRepository.findAll();
+        m.addAttribute("metalSongs", SongEntry);
+
+        return "songs";
+
+    }
+
+    @PostMapping("/songs")
+    public RedirectView postSongs(String artist, String title) {
+        AddSong newSong = new AddSong(artist, title);
+        songRepository.save(newSong);
+
+        return new RedirectView("/songs");
     }
 
 }

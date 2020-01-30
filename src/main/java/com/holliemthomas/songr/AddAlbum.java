@@ -1,12 +1,17 @@
 package com.holliemthomas.songr;
 
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-
-
+@Entity
 public class AddAlbum {
 
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long id;
 
     private String artist;
     private String title;
@@ -45,6 +50,10 @@ public class AddAlbum {
 
     public String getImageUrl() {
         return imageUrl;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
 

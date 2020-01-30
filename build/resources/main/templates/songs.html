@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddAlbum</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Cool Music Starts Here </h1>
+
+<fieldset>
+    <form action="/songs" method="post">
+        <input name="artist" placeholder="Artist"/>
+        <input name="title" placeholder="Title"/>
+        <input type="submit">
+    </form>
+</fieldset>
+
+<!--<fieldset>-->
+<!--    <form action="/songs" method="post">-->
+<!--        <input type="hidden" name="id" th:value=${metalSongs.id} placeholder="Delete a song"/>-->
+<!--        <input name="title" placeholder="Title"/>-->
+<!--        <input type="submit">-->
+<!--    </form>-->
+<!--</fieldset>-->
+
+<span>
+
+    <ul th:each="song : ${metalSongs}" >
+            <li th:text="${song.artist}"></li>
+            <li th:text="${song.title}"></li>
+
+
+    </ul>
+
+</span>
+
+</body>
+</html>
