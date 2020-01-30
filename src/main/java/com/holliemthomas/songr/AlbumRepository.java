@@ -7,3 +7,4 @@ import java.util.List;
 public interface AlbumRepository extends JpaRepository<Album, Long> {
 public List<Album> findByTitle(String title);
 }
+
