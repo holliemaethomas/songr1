@@ -8,12 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/album.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/AddAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/AddAlbum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/AlbumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/AlbumRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/RouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/album.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/holliemthomas/songr/SongrApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holliemthomas/songr/SongrApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
         <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -69,11 +66,19 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.holliemthomas.songr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr" />
     </key>
@@ -87,7 +92,7 @@
       <recent name="com.holliemthomas.songr" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AddAlbumTest">
     <configuration name="SongrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.holliemthomas.songr.SongrApplication" />
       <module name="songr.main" />
@@ -101,8 +106,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddAlbumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.holliemthomas.songr.AddAlbumTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddAlbumTest.constructorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.holliemthomas.songr.AddAlbumTest.constructorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddAlbumTest" />
+        <item itemvalue="Gradle.AddAlbumTest.constructorTest" />
         <item itemvalue="Application.SongrApplication" />
       </list>
     </recent_temporary>
@@ -156,25 +203,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="395" y="149" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579805353525" />
-    <state width="1388" height="398" key="GridCell.Tab.0.bottom" timestamp="1580407469214">
+    <state width="1388" height="356" key="GridCell.Tab.0.bottom" timestamp="1580427993899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="398" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580407469214" />
-    <state width="1388" height="398" key="GridCell.Tab.0.center" timestamp="1580407469212">
+    <state width="1388" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580427993899" />
+    <state width="1388" height="356" key="GridCell.Tab.0.center" timestamp="1580427993898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="398" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580407469212" />
-    <state width="1388" height="398" key="GridCell.Tab.0.left" timestamp="1580407469211">
+    <state width="1388" height="356" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580427993898" />
+    <state width="1388" height="356" key="GridCell.Tab.0.left" timestamp="1580427993897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="398" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580407469211" />
-    <state width="1388" height="398" key="GridCell.Tab.0.right" timestamp="1580407469214">
+    <state width="1388" height="356" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580427993897" />
+    <state width="1388" height="356" key="GridCell.Tab.0.right" timestamp="1580427993899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="398" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580407469214" />
+    <state width="1388" height="356" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580427993899" />
     <state x="105" y="1" key="SettingsEditor" timestamp="1579717262118">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="105" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579717262118" />
+    <state x="444" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580419862154">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="444" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580419862154" />
   </component>
 </project>
