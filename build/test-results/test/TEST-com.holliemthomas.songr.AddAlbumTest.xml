@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.holliemthomas.songr.AddAlbumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-30T23:46:37" hostname="38f9d3648329.ant.amazon.com" time="0.038">
+<testsuite name="com.holliemthomas.songr.AddAlbumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-31T03:47:08" hostname="38f9d3648329.ant.amazon.com" time="0.02">
   <properties/>
-  <testcase name="constructorTest()" classname="com.holliemthomas.songr.AddAlbumTest" time="0.038"/>
+  <testcase name="constructorTest()" classname="com.holliemthomas.songr.AddAlbumTest" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

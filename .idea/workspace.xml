@@ -8,8 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holliemthomas/songr/RouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/holliemthomas/songr/SongrApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holliemthomas/songr/SongrApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.holliemthomas.songr.AddAlbumTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.holliemthomas.songr.AddAlbumTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.holliemthomas.songr.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.holliemthomas.songr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/album.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.holliemthomas.songr.AddAlbumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.holliemthomas.songr.AddAlbumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/album.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <recent name="com.holliemthomas.songr" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AddAlbumTest">
+  <component name="RunManager" selected="Application.SongrApplication">
     <configuration name="SongrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.holliemthomas.songr.SongrApplication" />
       <module name="songr.main" />
@@ -203,22 +208,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="395" y="149" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579805353525" />
-    <state width="1388" height="356" key="GridCell.Tab.0.bottom" timestamp="1580427993899">
+    <state width="1388" height="324" key="GridCell.Tab.0.bottom" timestamp="1580444340062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580427993899" />
-    <state width="1388" height="356" key="GridCell.Tab.0.center" timestamp="1580427993898">
+    <state width="1388" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580444340062" />
+    <state width="1388" height="324" key="GridCell.Tab.0.center" timestamp="1580444340060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="356" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580427993898" />
-    <state width="1388" height="356" key="GridCell.Tab.0.left" timestamp="1580427993897">
+    <state width="1388" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580444340060" />
+    <state width="1388" height="324" key="GridCell.Tab.0.left" timestamp="1580444340059">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="356" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580427993897" />
-    <state width="1388" height="356" key="GridCell.Tab.0.right" timestamp="1580427993899">
+    <state width="1388" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580444340059" />
+    <state width="1388" height="324" key="GridCell.Tab.0.right" timestamp="1580444340061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="356" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580427993899" />
+    <state width="1388" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580444340061" />
     <state x="105" y="1" key="SettingsEditor" timestamp="1579717262118">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
